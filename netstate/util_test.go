@@ -5,7 +5,7 @@
 package netstate
 
 import (
-	"v.io/x/lib/netconfig"
+	"github.com/yupeng9/go.lib/netconfig"
 )
 
 import "net"

@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"v.io/x/lib/gosh"
-	"v.io/x/lib/gosh/internal/gosh_example_lib"
+	"github.com/yupeng9/go.lib/gosh"
+	"github.com/yupeng9/go.lib/gosh/internal/gosh_example_lib"
 )
 
 // Mirrors TestCmd in shell_test.go.
@@ -18,14 +18,14 @@ func ExampleCmd() {
 
 	// Start server.
 	binDir := sh.MakeTempDir()
-	binPath := gosh.BuildGoPkg(sh, binDir, "v.io/x/lib/gosh/internal/gosh_example_server")
+	binPath := gosh.BuildGoPkg(sh, binDir, "github.com/yupeng9/go.lib/gosh/internal/gosh_example_server")
 	c := sh.Cmd(binPath)
 	c.Start()
 	addr := c.AwaitVars("addr")["addr"]
 	fmt.Println(addr)
 
 	// Run client.
-	binPath = gosh.BuildGoPkg(sh, binDir, "v.io/x/lib/gosh/internal/gosh_example_client")
+	binPath = gosh.BuildGoPkg(sh, binDir, "github.com/yupeng9/go.lib/gosh/internal/gosh_example_client")
 	c = sh.Cmd(binPath, "-addr="+addr)
 	fmt.Print(c.Stdout())
 }

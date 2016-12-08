@@ -9,7 +9,7 @@ import (
 	"net"
 	"testing"
 
-	"v.io/x/lib/netstate"
+	"github.com/yupeng9/go.lib/netstate"
 )
 
 func TestChooser(t *testing.T) {

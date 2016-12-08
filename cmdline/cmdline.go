@@ -51,9 +51,9 @@ import (
 	"strings"
 	"syscall"
 
-	"v.io/x/lib/envvar"
-	_ "v.io/x/lib/metadata" // for the -metadata flag
-	"v.io/x/lib/timing"
+	"github.com/yupeng9/go.lib/envvar"
+	_ "github.com/yupeng9/go.lib/metadata" // for the -metadata flag
+	"github.com/yupeng9/go.lib/timing"
 )
 
 // Command represents a single command in a command-line program.  A program

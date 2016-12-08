@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"v.io/x/lib/netconfig"
+	"github.com/yupeng9/go.lib/netconfig"
 )
 
 func ExampleNetConfigWatcher() {

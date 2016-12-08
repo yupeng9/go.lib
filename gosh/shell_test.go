@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"v.io/x/lib/gosh"
-	lib "v.io/x/lib/gosh/internal/gosh_example_lib"
+	"github.com/yupeng9/go.lib/gosh"
+	lib "github.com/yupeng9/go.lib/gosh/internal/gosh_example_lib"
 )
 
 var fakeError = errors.New("fake error")
@@ -447,7 +447,7 @@ func TestHandleErrorLogging(t *testing.T) {
 // Cmd tests
 
 const (
-	helloWorldPkg = "v.io/x/lib/gosh/internal/hello_world"
+	helloWorldPkg = "github.com/yupeng9/go.lib/gosh/internal/hello_world"
 	helloWorldStr = "Hello, world!\n"
 )
 
@@ -458,14 +458,14 @@ func TestCmd(t *testing.T) {
 
 	// Start server.
 	binDir := sh.MakeTempDir()
-	binPath := gosh.BuildGoPkg(sh, binDir, "v.io/x/lib/gosh/internal/gosh_example_server")
+	binPath := gosh.BuildGoPkg(sh, binDir, "github.com/yupeng9/go.lib/gosh/internal/gosh_example_server")
 	c := sh.Cmd(binPath)
 	c.Start()
 	addr := c.AwaitVars("addr")["addr"]
 	neq(t, addr, "")
 
 	// Run client.
-	binPath = gosh.BuildGoPkg(sh, binDir, "v.io/x/lib/gosh/internal/gosh_example_client")
+	binPath = gosh.BuildGoPkg(sh, binDir, "github.com/yupeng9/go.lib/gosh/internal/gosh_example_client")
 	c = sh.Cmd(binPath, "-addr="+addr)
 	eq(t, c.Stdout(), helloWorldStr)
 }

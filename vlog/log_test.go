@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"testing"
 
-	"v.io/x/lib/vlog"
+	"github.com/yupeng9/go.lib/vlog"
 )
 
 func ExampleConfigure() {

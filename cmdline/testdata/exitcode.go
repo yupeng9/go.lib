@@ -4,7 +4,7 @@
 
 package main
 
-import "v.io/x/lib/cmdline"
+import "github.com/yupeng9/go.lib/cmdline"
 
 // cmdExitCode represents the exitcode command.
 var cmdExitCode = &cmdline.Command{

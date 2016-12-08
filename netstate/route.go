@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"v.io/x/lib/netconfig"
+	"github.com/yupeng9/go.lib/netconfig"
 )
 
 // IPRouteList is a slice of IPRoutes as returned by the netconfig package.

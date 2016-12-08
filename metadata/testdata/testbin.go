@@ -8,7 +8,7 @@ package main
 import (
 	"flag"
 
-	_ "v.io/x/lib/metadata"
+	_ "github.com/yupeng9/go.lib/metadata"
 )
 
 func main() {

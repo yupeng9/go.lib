@@ -7,7 +7,7 @@ package nsync_test
 import "testing"
 import "time"
 
-import "v.io/x/lib/nsync"
+import "github.com/yupeng9/go.lib/nsync"
 
 // ---------------------------
 

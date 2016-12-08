@@ -7,7 +7,7 @@ package main
 import (
 	"fmt"
 
-	"v.io/x/lib/cmdline"
+	"github.com/yupeng9/go.lib/cmdline"
 )
 
 // cmdFlags represents the flags command.

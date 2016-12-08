@@ -5,8 +5,8 @@
 package main
 
 import (
-	"v.io/x/lib/gosh"
-	"v.io/x/lib/gosh/internal/gosh_example_lib"
+	"github.com/yupeng9/go.lib/gosh"
+	"github.com/yupeng9/go.lib/gosh/internal/gosh_example_lib"
 )
 
 func main() {

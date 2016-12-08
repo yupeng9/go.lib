@@ -8,7 +8,7 @@ import "runtime"
 import "sync"
 import "testing"
 
-import "v.io/x/lib/nsync"
+import "github.com/yupeng9/go.lib/nsync"
 
 // A testData is the state shared between the threads in each of the tests below.
 type testData struct {

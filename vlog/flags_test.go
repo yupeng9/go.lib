@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"v.io/x/lib/gosh"
-	"v.io/x/lib/vlog"
+	"github.com/yupeng9/go.lib/gosh"
+	"github.com/yupeng9/go.lib/vlog"
 )
 
 var child = gosh.RegisterFunc("child", func() error {

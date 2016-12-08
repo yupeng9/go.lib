@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"v.io/x/lib/lookpath"
+	"github.com/yupeng9/go.lib/lookpath"
 )
 
 func mkdir(t *testing.T, d ...string) string {

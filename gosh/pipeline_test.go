@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"v.io/x/lib/gosh"
+	"github.com/yupeng9/go.lib/gosh"
 )
 
 func TestPipeline(t *testing.T) {

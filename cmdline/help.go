@@ -16,7 +16,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"v.io/x/lib/textutil"
+	"github.com/yupeng9/go.lib/textutil"
 )
 
 const missingDescription = "No description available"

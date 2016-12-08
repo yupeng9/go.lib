@@ -1,10 +1,10 @@
 <godepcop>
-  <!-- Most packages under v.io/x/lib should be free of other dependencies.
+  <!-- Most packages under github.com/yupeng9/go.lib should be free of other dependencies.
 
-       NOTE: llog is used in the implementation of v.io/x/lib/vlog, which is
-       used in other packages under v.io/x/lib.  Reimplementing vlog to stand
+       NOTE: llog is used in the implementation of github.com/yupeng9/go.lib/vlog, which is
+       used in other packages under github.com/yupeng9/go.lib.  Reimplementing vlog to stand
        alone will allow us to remove this dependency. -->
-  <pkg allow="v.io/x/lib/..."/>
+  <pkg allow="github.com/yupeng9/go.lib/..."/>
   <pkg allow="github.com/cosnicolaou/llog"/>
   <pkg deny="..."/>
 

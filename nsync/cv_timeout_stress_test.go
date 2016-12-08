@@ -12,7 +12,7 @@ import "math/rand"
 import "testing"
 import "time"
 
-import "v.io/x/lib/nsync"
+import "github.com/yupeng9/go.lib/nsync"
 
 // ---------------------------
 

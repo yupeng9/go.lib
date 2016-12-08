@@ -4,7 +4,7 @@
 
 package main
 
-import "v.io/x/lib/cmdline"
+import "github.com/yupeng9/go.lib/cmdline"
 
 // cmdFlat represents the flat command.
 var cmdFlat = &cmdline.Command{

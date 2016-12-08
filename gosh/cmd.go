@@ -18,7 +18,7 @@ import (
 	"syscall"
 	"time"
 
-	"v.io/x/lib/lookpath"
+	"github.com/yupeng9/go.lib/lookpath"
 )
 
 var (

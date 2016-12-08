@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"v.io/x/lib/simplemr"
+	"github.com/yupeng9/go.lib/simplemr"
 )
 
 func newChans(chanSize int) (chan *simplemr.Record, chan *simplemr.Record) {

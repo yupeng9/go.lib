@@ -8,7 +8,7 @@ import "sync"
 import "testing"
 import "time"
 
-import "v.io/x/lib/nsync"
+import "github.com/yupeng9/go.lib/nsync"
 
 // The benchmarks in this file use various mechanisms to
 // ping-pong back and forth between two threads as they count i from

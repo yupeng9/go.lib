@@ -7,7 +7,7 @@ package simplemr_test
 import (
 	"fmt"
 
-	"v.io/x/lib/simplemr"
+	"github.com/yupeng9/go.lib/simplemr"
 )
 
 func ExampleMR() {

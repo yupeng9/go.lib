@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"v.io/x/lib/netconfig"
-	"v.io/x/lib/netstate"
+	"github.com/yupeng9/go.lib/netconfig"
+	"github.com/yupeng9/go.lib/netstate"
 )
 
 func TestInterfaces(t *testing.T) {

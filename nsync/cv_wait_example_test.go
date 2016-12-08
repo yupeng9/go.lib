@@ -11,7 +11,7 @@ import "container/heap"
 import "fmt"
 import "time"
 
-import "v.io/x/lib/nsync"
+import "github.com/yupeng9/go.lib/nsync"
 
 // ---------------------------------------
 

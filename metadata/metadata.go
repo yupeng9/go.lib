@@ -29,7 +29,7 @@
 // an init function to accomplish this:
 //
 //   package mypkg
-//   import "v.io/x/lib/metadata"
+//   import "github.com/yupeng9/go.lib/metadata"
 //
 //   func init() {
 //     metadata.Insert("myproject.myid", "value")

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // The following enables go generate to generate the doc.go file.
-//go:generate go run $JIRI_ROOT/release/go/src/v.io/x/lib/cmdline/testdata/gendoc.go . -h
+//go:generate go run $JIRI_ROOT/release/go/src/github.com/yupeng9/go.lib/cmdline/testdata/gendoc.go . -h
 
 package main
 
@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"v.io/x/lib/cmdline"
-	"v.io/x/lib/textutil"
+	"github.com/yupeng9/go.lib/cmdline"
+	"github.com/yupeng9/go.lib/textutil"
 )
 
 func main() {
@@ -45,7 +45,7 @@ unless it would result in a line with leading or trailing spaces.
 Example usage in a unix terminal:
   $ cat myfile.txt | linewrap
 
-See http://godoc.org/v.io/x/lib/textutil#WrapWriter for details on the
+See http://godoc.org/github.com/yupeng9/go.lib/textutil#WrapWriter for details on the
 formatting algorithm.
 `,
 }

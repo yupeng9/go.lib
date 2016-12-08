@@ -10,10 +10,10 @@ import (
 	"os"
 	"strconv"
 
-	"v.io/x/lib/envvar"
-	"v.io/x/lib/lookpath"
-	"v.io/x/lib/textutil"
-	"v.io/x/lib/timing"
+	"github.com/yupeng9/go.lib/envvar"
+	"github.com/yupeng9/go.lib/lookpath"
+	"github.com/yupeng9/go.lib/textutil"
+	"github.com/yupeng9/go.lib/timing"
 )
 
 // EnvFromOS returns a new environment based on the operating system.

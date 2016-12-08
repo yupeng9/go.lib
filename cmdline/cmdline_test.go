@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"v.io/x/lib/envvar"
+	"github.com/yupeng9/go.lib/envvar"
 )
 
 var (

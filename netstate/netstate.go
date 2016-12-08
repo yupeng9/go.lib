@@ -66,7 +66,7 @@ import (
 	"strings"
 	"sync"
 
-	"v.io/x/lib/netconfig"
+	"github.com/yupeng9/go.lib/netconfig"
 )
 
 var (
